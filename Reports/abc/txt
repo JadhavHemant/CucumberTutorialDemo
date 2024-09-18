@@ -1,0 +1,61 @@
+
+@Guru99Application
+Scenario Outline: Validate login functinality                                                                                                        # src/test/java/Features/Guru99Application.feature:13
+  Given User is on Regsiter Page                                                                                                                     # Step.Guru99Application.user_is_on_regsiter_page()
+  When User Eneter Contact information first Name as "Anjali" and last Name as "Gurav"  and Phone Number as "909090" and Email as "Anjali@gmail.com" # Step.Guru99Application.user_eneter_contact_information_first_name_as_and_last_name_as_and_phone_number_as_and_email_as(java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+  And User Enter mailing information as "Pune"  and city as "Pune" and state as "MH" postalcode as "221122" and Countrt as "INDIA"                   # Step.Guru99Application.user_enter_mailing_information_as_and_city_as_and_state_as_postalcode_as_and_countrt_as(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+  And user enter user information "anjali@gmail.com" and "Anjali@123" and "Anjali@123"                                                               # Step.Guru99Application.user_enter_user_information_and_and(java.lang.String,java.lang.String,java.lang.String)
+  And user click on submit button                                                                                                                    # Step.Guru99Application.user_click_on_submit_button()
+
+@Guru99Application
+Scenario Outline: Validate login functinality                                                                                                    # src/test/java/Features/Guru99Application.feature:14
+  Given User is on Regsiter Page                                                                                                                 # Step.Guru99Application.user_is_on_regsiter_page()
+  When User Eneter Contact information first Name as "Neha" and last Name as "Gupta"  and Phone Number as "808080" and Email as "Neha@gmail.com" # Step.Guru99Application.user_eneter_contact_information_first_name_as_and_last_name_as_and_phone_number_as_and_email_as(java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+  And User Enter mailing information as "Mumbai"  and city as "Mumbai" and state as "MH" postalcode as "123456" and Countrt as "ERITREA"         # Step.Guru99Application.user_enter_mailing_information_as_and_city_as_and_state_as_postalcode_as_and_countrt_as(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+  And user enter user information "Neha@gmail.com" and "Neha@123" and "Neha@123"                                                                 # Step.Guru99Application.user_enter_user_information_and_and(java.lang.String,java.lang.String,java.lang.String)
+  And user click on submit button                                                                                                                # Step.Guru99Application.user_click_on_submit_button()
+
+@Guru99Application
+Scenario Outline: Validate login functinality                                                                                                       # src/test/java/Features/Guru99Application.feature:18
+  Given User is on Regsiter Page                                                                                                                    # Step.Guru99Application.user_is_on_regsiter_page()
+  When User Eneter Contact information first Name as "Rahul" and last Name as "Durke"  and Phone Number as "7070790" and Email as "Rahul@gmail.com" # Step.Guru99Application.user_eneter_contact_information_first_name_as_and_last_name_as_and_phone_number_as_and_email_as(java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+  And User Enter mailing information as "Delhi"  and city as "Delhi" and state as "DL" postalcode as "123456" and Countrt as "CANADA"               # Step.Guru99Application.user_enter_mailing_information_as_and_city_as_and_state_as_postalcode_as_and_countrt_as(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+  And user enter user information "Rahul@gmail.com" and "Rahul@123" and "Rahul@123"                                                                 # Step.Guru99Application.user_enter_user_information_and_and(java.lang.String,java.lang.String,java.lang.String)
+  And user click on submit button                                                                                                                   # Step.Guru99Application.user_click_on_submit_button()
+
+@Guru99Application
+Scenario Outline: Validate login functinality                                                                                                       # src/test/java/Features/Guru99Application.feature:19
+  Given User is on Regsiter Page                                                                                                                    # Step.Guru99Application.user_is_on_regsiter_page()
+  When User Eneter Contact information first Name as "Manoj" and last Name as "Shah"  and Phone Number as "12445555" and Email as "Manoj@gmail.com" # Step.Guru99Application.user_eneter_contact_information_first_name_as_and_last_name_as_and_phone_number_as_and_email_as(java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+  And User Enter mailing information as "Delhi"  and city as "Delhi" and state as "DL" postalcode as "132424" and Countrt as "AMERICAN SAMOA"       # Step.Guru99Application.user_enter_mailing_information_as_and_city_as_and_state_as_postalcode_as_and_countrt_as(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+  And user enter user information "Manoj@gmail.com" and "Manoj@123" and "Manoj@123"                                                                 # Step.Guru99Application.user_enter_user_information_and_and(java.lang.String,java.lang.String,java.lang.String)
+  And user click on submit button                                                                                                                   # Step.Guru99Application.user_click_on_submit_button()
+
+@Guru99Application
+Scenario Outline: Validate login functinality                                                                                                    # src/test/java/Features/Guru99Application.feature:23
+  Given User is on Regsiter Page                                                                                                                 # Step.Guru99Application.user_is_on_regsiter_page()
+  When User Eneter Contact information first Name as "Amar" and last Name as "Salve"  and Phone Number as "909090" and Email as "Amar@gmail.com" # Step.Guru99Application.user_eneter_contact_information_first_name_as_and_last_name_as_and_phone_number_as_and_email_as(java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+  And User Enter mailing information as "Dubai"  and city as "Delhi" and state as "DL" postalcode as "910101" and Countrt as "MALDIVES"          # Step.Guru99Application.user_enter_mailing_information_as_and_city_as_and_state_as_postalcode_as_and_countrt_as(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+  And user enter user information "Amar@gmail.com" and "Amar@123" and "Amar@123"                                                                 # Step.Guru99Application.user_enter_user_information_and_and(java.lang.String,java.lang.String,java.lang.String)
+  And user click on submit button                                                                                                                # Step.Guru99Application.user_click_on_submit_button()
+
+@Guru99Application
+Scenario Outline: Validate login functinality                                                                                                        # src/test/java/Features/Guru99Application.feature:24
+  Given User is on Regsiter Page                                                                                                                     # Step.Guru99Application.user_is_on_regsiter_page()
+  When User Eneter Contact information first Name as "Nikhil" and last Name as "Patil"  and Phone Number as "909090" and Email as "Nikhil@gmail.com" # Step.Guru99Application.user_eneter_contact_information_first_name_as_and_last_name_as_and_phone_number_as_and_email_as(java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+  And User Enter mailing information as "Dubai"  and city as "Delhi" and state as "DL" postalcode as "910101" and Countrt as "INDIA"                 # Step.Guru99Application.user_enter_mailing_information_as_and_city_as_and_state_as_postalcode_as_and_countrt_as(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+  And user enter user information "Nikhil@gmail.com" and "Nikhil@123" and "Nikhil@123"                                                               # Step.Guru99Application.user_enter_user_information_and_and(java.lang.String,java.lang.String,java.lang.String)
+  And user click on submit button                                                                                                                    # Step.Guru99Application.user_click_on_submit_button()
+
+@Guru99Application
+Scenario Outline: Validate login functinality                                                                                                       # src/test/java/Features/Guru99Application.feature:28
+  Given User is on Regsiter Page                                                                                                                    # Step.Guru99Application.user_is_on_regsiter_page()
+  When User Eneter Contact information first Name as "Punam" and last Name as "Mahajan"  and Phone Number as "909090" and Email as "Amar@gmail.com" # Step.Guru99Application.user_eneter_contact_information_first_name_as_and_last_name_as_and_phone_number_as_and_email_as(java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+  And User Enter mailing information as "Dubai"  and city as "Delhi" and state as "DL" postalcode as "910101" and Countrt as "AMALDIVES"            # Step.Guru99Application.user_enter_mailing_information_as_and_city_as_and_state_as_postalcode_as_and_countrt_as(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+  And user enter user information "Punam@gmail.com" and "Punam@123" and "Punam@123"                                                                 # Step.Guru99Application.user_enter_user_information_and_and(java.lang.String,java.lang.String,java.lang.String)
+  And user click on submit button                                                                                                                   # Step.Guru99Application.user_click_on_submit_button()
+
+@Guru99Application
+Scenario: Validate login functinality  # src/test/java/Features/Guru99Application.feature:30
+  Given User is on Regsiter Page       # Step.Guru99Application.user_is_on_regsiter_page()
+  When User Eneter Contact information # null

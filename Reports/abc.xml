@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="8" time="0.598">
+    <testcase classname="Test Guru99 Application" name="Validate login functinality" time="0.107">
+        <system-out><![CDATA[Given User is on Regsiter Page..............................................passed
+When User Eneter Contact information first Name as "Anjali" and last Name as "Gurav"  and Phone Number as "909090" and Email as "Anjali@gmail.com".passed
+And User Enter mailing information as "Pune"  and city as "Pune" and state as "MH" postalcode as "221122" and Countrt as "INDIA".passed
+And user enter user information "anjali@gmail.com" and "Anjali@123" and "Anjali@123".passed
+And user click on submit button.............................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Test Guru99 Application" name="Validate login functinality 2" time="0.003">
+        <system-out><![CDATA[Given User is on Regsiter Page..............................................passed
+When User Eneter Contact information first Name as "Neha" and last Name as "Gupta"  and Phone Number as "808080" and Email as "Neha@gmail.com".passed
+And User Enter mailing information as "Mumbai"  and city as "Mumbai" and state as "MH" postalcode as "123456" and Countrt as "ERITREA".passed
+And user enter user information "Neha@gmail.com" and "Neha@123" and "Neha@123".passed
+And user click on submit button.............................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Test Guru99 Application" name="Validate login functinality 3" time="0.004">
+        <system-out><![CDATA[Given User is on Regsiter Page..............................................passed
+When User Eneter Contact information first Name as "Rahul" and last Name as "Durke"  and Phone Number as "7070790" and Email as "Rahul@gmail.com".passed
+And User Enter mailing information as "Delhi"  and city as "Delhi" and state as "DL" postalcode as "123456" and Countrt as "CANADA".passed
+And user enter user information "Rahul@gmail.com" and "Rahul@123" and "Rahul@123".passed
+And user click on submit button.............................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Test Guru99 Application" name="Validate login functinality 4" time="0.003">
+        <system-out><![CDATA[Given User is on Regsiter Page..............................................passed
+When User Eneter Contact information first Name as "Manoj" and last Name as "Shah"  and Phone Number as "12445555" and Email as "Manoj@gmail.com".passed
+And User Enter mailing information as "Delhi"  and city as "Delhi" and state as "DL" postalcode as "132424" and Countrt as "AMERICAN SAMOA".passed
+And user enter user information "Manoj@gmail.com" and "Manoj@123" and "Manoj@123".passed
+And user click on submit button.............................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Test Guru99 Application" name="Validate login functinality 5" time="0.002">
+        <system-out><![CDATA[Given User is on Regsiter Page..............................................passed
+When User Eneter Contact information first Name as "Amar" and last Name as "Salve"  and Phone Number as "909090" and Email as "Amar@gmail.com".passed
+And User Enter mailing information as "Dubai"  and city as "Delhi" and state as "DL" postalcode as "910101" and Countrt as "MALDIVES".passed
+And user enter user information "Amar@gmail.com" and "Amar@123" and "Amar@123".passed
+And user click on submit button.............................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Test Guru99 Application" name="Validate login functinality 6" time="0.005">
+        <system-out><![CDATA[Given User is on Regsiter Page..............................................passed
+When User Eneter Contact information first Name as "Nikhil" and last Name as "Patil"  and Phone Number as "909090" and Email as "Nikhil@gmail.com".passed
+And User Enter mailing information as "Dubai"  and city as "Delhi" and state as "DL" postalcode as "910101" and Countrt as "INDIA".passed
+And user enter user information "Nikhil@gmail.com" and "Nikhil@123" and "Nikhil@123".passed
+And user click on submit button.............................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Test Guru99 Application" name="Validate login functinality 7" time="0.003">
+        <system-out><![CDATA[Given User is on Regsiter Page..............................................passed
+When User Eneter Contact information first Name as "Punam" and last Name as "Mahajan"  and Phone Number as "909090" and Email as "Amar@gmail.com".passed
+And User Enter mailing information as "Dubai"  and city as "Delhi" and state as "DL" postalcode as "910101" and Countrt as "AMALDIVES".passed
+And user enter user information "Punam@gmail.com" and "Punam@123" and "Punam@123".passed
+And user click on submit button.............................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Test Guru99 Application" name="Validate login functinality 8" time="0.004">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given User is on Regsiter Page..............................................passed
+When User Eneter Contact information........................................undefined
+]]></failure>
+    </testcase>
+</testsuite>
